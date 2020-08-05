@@ -43,7 +43,7 @@ export const BOOKS = [
   },
   {
     id: 7,
-    img: "calling.jpb",
+    img: "calling.jpg",
     title: "Calling a bug a feature",
     subtile: "We'll fix it later"
   },
@@ -58,6 +58,5 @@ export const BOOKS = [
     img: "getting.jpg",
     title: "Getting Around to Security Next Month",
     subtile: "Putting off critical tasks until everyone forgets about them"
-  },
-
+  }
 ]
