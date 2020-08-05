@@ -33,30 +33,30 @@ export const BOOKS = [
     id: 5,
     img: "blaming.jpg",
     title: "Blaming the User",
-    subtile: "You're a 10x hacker and it must be someone else's fault"
+    subtitle: "You're a 10x hacker and it must be someone else's fault"
   },
   {
     id: 6,
     img: "buzzword.jpg",
     title: "Buzzword-first Design",
-    subtile: "Fashion-forward Developement"
+    subtitle: "Fashion-forward Developement"
   },
   {
     id: 7,
     img: "calling.jpg",
     title: "Calling a bug a feature",
-    subtile: "We'll fix it later"
+    subtitle: "We'll fix it later"
   },
   {
     id: 8,
     img: "coding.jpg",
     title: "Coding on the Weekend",
-    subtile: "It's like weekday coding, but pants are optional"
+    subtitle: "It's like weekday coding, but pants are optional"
   },
   {
     id: 9,
     img: "getting.jpg",
     title: "Getting Around to Security Next Month",
-    subtile: "Putting off critical tasks until everyone forgets about them"
+    subtitle: "Putting off critical tasks until everyone forgets about them"
   }
 ]
