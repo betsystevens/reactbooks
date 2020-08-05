@@ -1,61 +1,61 @@
 export const BOOKS = [
   {
     id: 0,
-    img: "changing.jpg",
+    image: "assets/images/changing.jpg",
     title: "Changing Stuff and Seeing What Happens",
     subtitle: "How to actually learn any new programming concept"
   },
   {
     id: 1,
-    img: "copyhorse.jpg",
+    image: "assets/images/copyhorse.jpg",
     title: "Copy and Pasting from Stackoverflow",
     subtitle: "Asking yourself why you didn't think of that"
   },
   {
     id: 2,
-    img: "excuses.jpg",
+    image: "assets/images/excuses.jpg",
     title: "Expert Excuses for Not Writing Unit Tests",
     subtitle: "Your application is a special snowflake"
   },
   {
     id: 3,
-    img: "deleting.jpg",
-    title: "Deleting Code",
+    image: "assets/images/deleting.jpg",
+    title:"Deleting Code",
     subtitle: "Probably the most satisfying part of your job"
   },
   {
     id: 4,
-    img: "agile.jpg",
+    image: "assets/images/agile.jpg",
     title: "Agile Management",
     subtitle: "Put the 'agile' in fragile"
   },
   {
     id: 5,
-    img: "blaming.jpg",
+    image: "assets/images/blaming.jpg",
     title: "Blaming the User",
     subtitle: "You're a 10x hacker and it must be someone else's fault"
   },
   {
     id: 6,
-    img: "buzzword.jpg",
+    image: "assets/images/buzzword.jpg",
     title: "Buzzword-first Design",
     subtitle: "Fashion-forward Developement"
   },
   {
     id: 7,
-    img: "calling.jpg",
+    image: "assets/images/calling.jpg",
     title: "Calling a bug a feature",
     subtitle: "We'll fix it later"
   },
   {
     id: 8,
-    img: "coding.jpg",
+    image: "assets/images/coding.jpg",
     title: "Coding on the Weekend",
     subtitle: "It's like weekday coding, but pants are optional"
   },
   {
     id: 9,
-    img: "getting.jpg",
+    image: "assets/images/getting.jpg",
     title: "Getting Around to Security Next Month",
     subtitle: "Putting off critical tasks until everyone forgets about them"
   }
