@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Navbar, NavbarBrand } from 'reactstrap';
+import ListBooks from './components/ListBooks'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
             <NavbarBrand href="/">O'Really Books</NavbarBrand>
           </div>
         </Navbar> 
+        <ListBooks />
       </div> 
     )
   }
