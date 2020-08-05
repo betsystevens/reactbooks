@@ -71,16 +71,20 @@ class ListBooks extends Component {
   }
 
   render() {
+    const imgStyle = {
+      height: 250,
+      width: 190
+    } 
     const booklist = this.state.books.map((book) => {
       return (
         <div key={book.id} className="col-12 mt-5">
-          <Media tag="li">
-            <Media left middle>
-              <Media object src={book.image} alt={book.title} />
+          <Media className="border-bottom" tag="li">
+            <Media left className="border border-dark">
+              <Media object src={book.image} alt={book.title} style={imgStyle} />
             </Media>
-            <Media body className="ml-5">
+            <Media body className="m-5">
               <Media heading>{book.title}</Media>
-              <p>{book.subtitle}</p>
+              <p className="mt-5">{book.subtitle}</p>
             </Media>
           </Media>
         </div>
