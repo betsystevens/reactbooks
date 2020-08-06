@@ -75,6 +75,10 @@ class ListBooks extends Component {
       height: 250,
       width: 190
     } 
+    const pStyle = {
+      fontStyle: 'italic',
+      fontSize: 20 
+    }
     const booklist = this.state.books.map((book) => {
       return (
         <div key={book.id} className="col-12 mt-5">
@@ -84,7 +88,7 @@ class ListBooks extends Component {
             </Media>
             <Media body className="m-5">
               <Media heading>{book.title}</Media>
-              <p className="mt-5">{book.subtitle}</p>
+              <p className="mt-5" style={pStyle} >{book.subtitle}</p>
             </Media>
           </Media>
         </div>
