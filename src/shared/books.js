@@ -78,7 +78,7 @@ export const BOOKS = [
   },
   {
     id: 11,
-    image: "assets/images/date.jpb",
+    image: "assets/images/date.jpg",
     title: "Date and Time in JavaScript",
     subtitle: "Book 1 of 6",
     price: "$72.00"
@@ -99,21 +99,21 @@ export const BOOKS = [
   },
   {
     id: 14,
-    image: "assets/images/hoping",
+    image: "assets/images/hoping.jpg",
     title: "Hoping This Works",
     subtitle: "Solutions that might fix the problem without breaking anything",
     price: "$56.00"
   },
   {
     id: 15,
-    image: "assets/images/managing",
+    image: "assets/images/managing.jpg",
     title: "Navigating and Managing One Billion Browser Tabs",
     subtitle: "Because you know you just saw the tab you need",
     price: "$11.00"
   },
   {
     id: 16,
-    image: "assets/images/memorizing",
+    image: "assets/images/memorizing.jpg",
     title: "Memorizing Six Git Commands",
     subtitle: "The Popular Approach to Version Control",
     price: "$29.00"
